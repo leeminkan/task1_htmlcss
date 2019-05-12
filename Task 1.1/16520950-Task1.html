@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>16520950 - Nguyen Hoang Phuc -Task 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<h1>Task 1.1</h1>
+<ul>
+	<li>
+		<h4 class="Question">So sánh file HTML có định dạng .html và .htm. Nếu không có các thẻ &lthtml&gt, &lthead&gt và &ltbody&gt thì có ảnh hưởng gì trong file HTML không?</h4>
+		<div class="Answer">
+			<p>Không có sự khác biệt giữa 2 định dạng .html và .htm. Việc không có các thẻ &lthtml&gt, &lthead&gt và &ltbody&gt trình duyệt vẫn hiển thị nội dung ra bên ngoài một cách khá chính xác, chỉ là sẽ có một số lỗi như ở trình duyệt IE - không phận biệt được thẻ &ltform&gt nằm ở đâu do đó hiển thị lên trang web sai. Ta có thể thấy được ảnh hưởng của việc không có các thẻ trên là sẽ không biết được cấu trúc chính xác của một file Html để trình duyệt có thể hiển thị ra ngoài.</p>
+		</div>
+	</li>
+	<li>
+		<h4 class="Question">Có những cách nào để hiển thị các thẻ HTML để hiển thị ra bên ngoài mà không bị HTML xử lý. Ví dụ hiển thị các nội dung như &lt/br&gt &ltdiv&gt&lth1&gtHello HTML&lth1&gt&ltdiv&gt</h4>
+		<div class="Answer">
+			<p>Dùng các ký tự thực thể trong HTML.</p>
+		</div>
+	</li>
+	<li>
+		<h4 class="Question">Làm thế nào để tạo vùng chọn để định dạng trong CSS cho một tag, một class, một ID?</h4>
+		<div class="Answer">
+			<p>Vùng chọn cho một tag: tentag{}
+				<p>Ví dụ: div{}</p>
+			</p>
+			
+			<p>Vùng chọn cho một class: .tenclass{}</p>
+			<p>Ví dụ: .QuestionClass{}</p>
+			<p>Vùng chọn cho một ID: #ID{}</p>
+			<p>Ví dụ: #1{}</p>
+		</div>
+	</li>
+	<li>
+		<h4 class="Question">Tìm và cho ví dụ về các thẻ có các chức năng sau:</h4>
+		<div class="Answer">
+			<ul>
+			<li>
+				<p><u>Gạch chân</u>, <strike>Gạch ngang</strike>, chỉ số <sup>trên</sup>/<sub>dưới</sub></p>
+				<p>Kẻ đường ngang với thẻ &lthr&gt <hr  width="80%" size="5px" align="center" color="red" /></p>
+			</li>
+			<li>
+				<p>
+					Tạo bảng (có ghép dòng, ghép cột)
+				</p>
+				<table border="1" cellpadding="5" cellspacing="0">
+					<tr>
+						<th>Hàng 1 Cột 1</th>
+						<th>Hàng 1 Cột 2</th>
+						<th>Hàng 1 Cột 3</th>
+					</tr>
+					<tr>
+						<td colspan="2">Hàng 2 Cột 1,2</td>
+						<td rowspan="2">Hàng 2,3 Cột 3</td>
+					</tr>
+					<tr>
+						<td>Hàng 3 Cột 1</td>
+						<td>Hàng 3 Cột 2</td>
+					</tr>
+				</table>
+			</li>
+			<li> <p>4 hiệu ứng chạy từ 4 hướng:</p>
+				<p>
+					<marquee direction="left">Trái</marquee>
+				</p>
+				<p>
+					<marquee direction="right">Phải</marquee>
+				</p>
+				<p>
+					<marquee direction="up">Trên</marquee>
+				</p>
+				<p>
+					<marquee direction="Down">Dưới</marquee>
+				</p>
+			</li>
+		</ul>
+		</div>
+	</li>
+</ul>
+</body>
+</html>

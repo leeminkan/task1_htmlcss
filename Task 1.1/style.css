@@ -1,0 +1,26 @@
+body{
+	background: url(./img/background2.jpg) ;
+	background-attachment :fixed;
+	color: #353433;
+	font-size: 25px;
+}
+h1{
+	color: black;
+	text-align: center;
+}
+body > ul{
+	list-style-type: lower-alpha;
+}
+.Question{
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Tahoma", cursive;
+}
+.Answer:before{
+	content: "Câu trả lời:"
+}
+.Answer{
+	font-family: "Tahoma", cursive;
+	padding-top: 10px;
+	padding-left: 10px;
+}
